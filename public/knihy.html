@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Knihy</title>
+  <link rel="stylesheet" href="css/knihy.css">
+  <script src="js/knihy.js" defer></script>
+</head>
+<body>
+  <h1>Knihy</h1>
+
+  <h3>Pridať knihu</h3>
+
+<div class="formular">
+  Autor: <input type="text" id="autor"><br>
+  Názov: <input type="text" id="nazov"><br>
+  Cena: <input type="text" id="cena"><br>
+  Rok: <input type="text" id="rok"><br>
+  <button onclick="pridat()">Pridať</button>
+</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Autor</th>
+        <th>Názov</th>
+        <th>Cena</th>
+        <th>Rok</th>
+        <th>Akcie</th>
+      </tr>
+    </thead>
+    <tbody id="telo"></tbody>
+  </table>
+
+  
+</body>
+</html>

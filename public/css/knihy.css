@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px 12px;
+}
+
+th {
+  background: #eee;
+}
+
+.formular {
+  margin-bottom: 20px;
+}
+
+.formular input {
+  padding: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
